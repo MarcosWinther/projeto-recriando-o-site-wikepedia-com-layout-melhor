@@ -9,92 +9,211 @@
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <div>   
+            <div class="logo">
+                <figure>
+                    <img src="assets/images/icons8-globo-da-terra-dos-pares-100.png"/>
+                    <figcaption>Sua WikiPedia</figcaption>
+                </figure>
+            </div>
         </div>
-    </div>
 
-    <div class="bar"></div>
+        <div class="bar"></div>
+    </header>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li>
-                    <a href="#producao">Produção</a>
+    <main>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Título</h2>
+                <nav>
                     <ul>
-                        <li><a href="#desenvolvimento">Desenvolvimento</a></li>
-                        <li><a href="#filmagens">Filmagens</a></li>
-                        <li><a href="#elenco">Escolha do elenco</a></li>
+                        <li>
+                            <a href="#producao">Produção</a>
+                            <ul>
+                                <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+                                <li><a href="#filmagens">Filmagens</a></li>
+                                <li><a href="#elenco">Escolha do elenco</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#elenco_e_personagens">Elenco e personagens</a>
+                            <ul>
+                                <li><a href="#elenco_principal">Principal</a></li>
+                                <li><a href="#recorrente">Recorrente</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#trailer">Trailer da Série</a></li>
                     </ul>
-                </li>
-            </ul>
+                </nav>
+            </div>
+    
+            <div class="main">
+                <h1>Série Heartstopper</h1>
+                <p>
+                    Heartstopper é uma série de televisão via streaming britânica de drama adolescente LGBT 
+                    criada por Alice Oseman, baseada em sua webcomic e história em quadrinhos homônima. A 
+                    série teve sua produção feita pela See-Saw Films e é distribuída pela plataforma Netflix. 
+                    Heartstopper estreou mundialmente em 22 de abril de 2022 e foi aclamada tanto pela crítica 
+                    especializada quanto pelo público.
+                </p>
+    
+                <figure>
+                    <img src="./assets/images/Heartstopper.png" alt="Logo da série Heartstopper" id="logo_serie">
+                    <figcaption>Logo da série Heartstopper</figcaption>
+                </figure>
+    
+                <h2 id="producao">Produção</h2>
+    
+                <h3 id="desenvolvimento">Desenvolvimento</h3>
+                <p>
+                    A See-Saw Films adquiriu os direitos da obra de Oseman em 2019. A 20 de janeiro de 2021, 
+                    foi anunciado que a Netflix havia encomendado uma primeira temporada com a duração total 
+                    de oito horas e meia, com a própria Oseman como roteirista e Euros Lyn como diretor e produtor 
+                    executivo Também estão apontados como produtores executivos Patrick Walters, Jamie Laurenson, 
+                    Hakan Kousetta, Iain Canning, e como produtores Emile Sherman e Zorana Piggott.
+                </p>
+    
+                <h3 id="elenco">Escolha do elenco</h3>
+                <p>
+                    Daniel Edwards-Guy é o diretor de casting. Em janeiro e fevereiro de 2021, decorreu um casting 
+                    aberto para selecionar os atores de cinco personagens principais, bem como de três personagens 
+                    recorrentes. Oseman explicou que Aled não iria aparecer na adaptação porque queria respeitar 
+                    a sua história em Radio Silence. Depois de mais de dez mil pessoas terem comparecido no casting, 
+                    Alice Oseman anunciou os primeiros nomes do elenco em abril de 2021, com Kit Connor e Joe Locke 
+                    protagonizando Nick e Charlie, respectivamente. O resto do elenco foi anunciado dias depois, 
+                    incluindo Yasmin Finney, Sebastian Croft, William Gao, Corinna Brown, Kizzy Edgell, Cormac 
+                    Hyde-Corrin, Rhea Norwood e Tobie Donovan. Jenny Walser juntou-se ao elenco em maio.
+                </p>
+    
+                <figure>
+                    <img src="./assets/images/elenco_heartstopper.jpg" alt="Elenco da série Heartstopper" id="img_elenco">
+                    <figcaption>Elenco da série Heartstopper</figcaption>
+                </figure>
+    
+                <h3 id="filmagens">Filmagens</h3>
+                <p>
+                    A produção começou em abril de 2021 e terminou em junho do mesmo ano. As filmagens ocorreram
+                     principalmente em locações de Burnham e Slough na Inglaterra. A fechada da Burnham Park 
+                     Academy School serviu para o fictício Colégio Truham. A estação de onde Nick e Charlie 
+                     partem para a praia é a estação ferroviária North Weald na ferrovia Epping Ongar, um ramal 
+                     da linha central do metrô de Londres fechada em 1994.
+                </p>
+    
+                <h2 id="elenco_e_personagens">Elenco e personagens</h2>
+                <figure>
+                    <img src="./assets/images/heartstopper_elenco.png" alt="Elenco principal da série Heartstopper" id="elenco_heartstopper">
+                    <figcaption>Elenco principal da série Heartstopper</figcaption>
+                </figure>
+                <h3 id="elenco_principal">Principal</h3>
+                <ul>
+                    <li>
+                        Joe Locke como Charles "Charlie" Spring, um estudante do 1º ano do ensino médio do 
+                        Colégio Truham Para Rapazes que recentemente se assumiu gay;
+                    </li>
+                    <li>
+                        Kit Connor como Nicholas "Nick" Nelson, um jogador de rugby do 2º ano do ensino médio 
+                        sentado ao lado de Charlie na aula, que se descobre bissexual;
+                    </li>
+                    <li>
+                        William Gao como Tao Xu, amigo protetor de Charlie e crush de Elle;
+                    </li>
+                    <li>
+                        Yasmin Finney como Elle Argent, amiga de Charlie e Tao que se transferiu para o Colégio 
+                        Harvey Greene Para Meninas (apelidada de Higgs) depois de se assumir como mulher trans;
+                    </li>
+                    <li>
+                        Corinna Brown como Tara Jones, uma estudante do Higgs que faz amizade com Elle;
+                    </li>
+                    <li>
+                        Kizzy Edgell como Darcy Olsson, namorada de Tara;
+                    </li>
+                    <li>
+                        Tobie Donovan como Isaac Henderson, um membro introvertido do grupo de amigos de Charlie, Tao
+                        e Elle;
+                    </li>
+                    <li>
+                        Jenny Walser como Victoria "Tori" Spring, irmã mais velha de Charlie;
+                    </li>
+                    <li>
+                        Sebastian Croft como Benjamin "Ben" Hope, o primeiro namorado de Charlie;
+                    </li>
+                    <li>
+                        Cormac Hyde-Corrin como Harry Greene, um valentão;
+                    </li>
+                    <li>
+                        Rhea Norwood como Imogen Heaney, uma estudante do Higgs com uma queda por Nick;
+                    </li>
+                    <li>
+                        Fisayo Akinade como Mr Ajayi, um professor de arte que cuida de Charlie;
+                    </li>
+                    <li>
+                        Chetna Pandya como treinadora Singh;
+                    </li>
+                    <li>
+                        Stephen Fry como a voz do diretor Barnes;
+                    </li>
+                    <li>
+                        Olivia Colman como Sarah Nelson, mãe de Nick.
+                    </li>
+                </ul>
+
+                <h3 id="recorrente">Recorrente</h3>
+                <ul>
+                    <li>
+                        Araloyin Oshunremi como Otis Smith;
+                    </li>
+                    <li>
+                        Evan Ovenell como Christian McBride;
+                    </li>
+                    <li>
+                        Ashwin Viswanath como Sai Verma;
+                    </li>
+                    <li>
+                        Georgina Rich como Jane Spring, mãe de Charlie e Tori;
+                    </li>
+                    <li>
+                        Joseph Balderrama como Julio Spring, pai de Charlie e Tori;
+                    </li>
+                    <li>
+                        Momo Yeung como Yan Xu, mãe de Tao;
+                    </li>
+                    <li>
+                        Alan Turkington como Senhor Lange.
+                    </li>
+                </ul>
+
+                <h2 id="trailer">Trailer</h2>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/hTyXVn9t0ig" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                            gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+
+                <br><br>
+            </div>
+    
+            <div class="anchors">
+                <h2>Neste Artigo</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Âncoras</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
-        <div class="main">
-            <h1>Série Heartstopper</h1>
-            <p>
-                Heartstopper é uma série de televisão via streaming britânica de drama adolescente LGBT 
-                criada por Alice Oseman, baseada em sua webcomic e história em quadrinhos homônima. A 
-                série teve sua produção feita pela See-Saw Films e é distribuída pela plataforma Netflix. 
-                Heartstopper estreou mundialmente em 22 de abril de 2022 e foi aclamada tanto pela crítica 
-                especializada quanto pelo público.
-            </p>
-
-            <figure>
-                <img src="./assets/images/Heartstopper.png" alt="Logo da série Heartstopper" id="logo_serie">
-                <figcaption>Logo da série Heartstopper</figcaption>
-            </figure>
-
-            <h2 id="producao">Produção</h2>
-
-            <h3 id="desenvolvimento">Desenvolvimento</h3>
-            <p>
-                A See-Saw Films adquiriu os direitos da obra de Oseman em 2019. A 20 de janeiro de 2021, 
-                foi anunciado que a Netflix havia encomendado uma primeira temporada com a duração total 
-                de oito horas e meia, com a própria Oseman como roteirista e Euros Lyn como diretor e produtor 
-                executivo Também estão apontados como produtores executivos Patrick Walters, Jamie Laurenson, 
-                Hakan Kousetta, Iain Canning, e como produtores Emile Sherman e Zorana Piggott.
-            </p>
-
-            <h3 id="elenco">Escolha do elenco</h3>
-            <p>
-                Daniel Edwards-Guy é o diretor de casting. Em janeiro e fevereiro de 2021, decorreu um casting 
-                aberto para selecionar os atores de cinco personagens principais, bem como de três personagens 
-                recorrentes. Oseman explicou que Aled não iria aparecer na adaptação porque queria respeitar 
-                a sua história em Radio Silence. Depois de mais de dez mil pessoas terem comparecido no casting, 
-                Alice Oseman anunciou os primeiros nomes do elenco em abril de 2021, com Kit Connor e Joe Locke 
-                protagonizando Nick e Charlie, respectivamente. O resto do elenco foi anunciado dias depois, 
-                incluindo Yasmin Finney, Sebastian Croft, William Gao, Corinna Brown, Kizzy Edgell, Cormac 
-                Hyde-Corrin, Rhea Norwood e Tobie Donovan. Jenny Walser juntou-se ao elenco em maio.
-            </p>
-
-            <figure>
-                <img src="./assets/images/elenco_heartstopper.jpg" alt="Elenco da série Heartstopper" id="img_elenco">
-                <figcaption>Elenco da série Heartstopper</figcaption>
-            </figure>
-
-            <h3 id="filmagens">Filmagens</h3>
-            <p>
-                A produção começou em abril de 2021 e terminou em junho do mesmo ano. As filmagens ocorreram
-                 principalmente em locações de Burnham e Slough na Inglaterra. A fechada da Burnham Park 
-                 Academy School serviu para o fictício Colégio Truham. A estação de onde Nick e Charlie 
-                 partem para a praia é a estação ferroviária North Weald na ferrovia Epping Ongar, um ramal 
-                 da linha central do metrô de Londres fechada em 1994.
-            </p>
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+    </main>
 
     <div class="footer">
-
+        <span>
+            Página desenvolvida por Marcos Winther Silva Carreiro, 2022.<br>
+            <a href="https://pt.wikipedia.org/wiki/Heartstopper_(s%C3%A9rie_de_televis%C3%A3o)">Site heferência do Wikipedia</a>
+        </span>
     </div>
 </body>
 </html>

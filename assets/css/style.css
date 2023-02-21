@@ -8,7 +8,7 @@ p {
     text-align: justify;
 }
 
-ul { 
+nav ul { 
     list-style: none; 
     padding-left: 5px; 
 }
@@ -24,6 +24,22 @@ a {
 
 #img_elenco {
     width: 80%;
+}
+
+#elenco_heartstopper {
+    width: 80%;
+}
+
+div .logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo figcaption {
+    color: darkslategray;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .bar {
@@ -48,7 +64,23 @@ a {
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    display: flex;
 }
+
+.footer span {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .footer a {
+    text-decoration: none;
+    color: darkslategray;
+ }
 
 .anchors {
     border-left: solid 1px #cdcdcd;
